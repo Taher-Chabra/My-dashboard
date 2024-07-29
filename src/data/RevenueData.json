@@ -1,0 +1,42 @@
+[
+   {
+       "country": "China",
+       "value": "1.660",
+       "percent": "73.29%"
+   },
+   {
+       "country": "India",
+       "value": "1.350",
+       "percent": "61.66%"
+   },
+   {
+       "country": "USA",
+       "value": "1.230",
+       "percent": "53.23%"
+   },
+   {
+       "country": "Germany",
+       "value": "830",
+       "percent": "20.43%"
+   },
+   {
+       "country": "Australia",
+       "value": "760",
+       "percent": "10.35%"
+   },
+   {
+       "country": "United Kingdom",
+       "value": "690",
+       "percent": "7.87%"
+   },
+   {
+       "country": "Romania",
+       "value": "600",
+       "percent": "5.94%"
+   },
+   {
+       "country": "Brasil",
+       "value": "550",
+       "percent": "4.34%"
+   }
+ ]

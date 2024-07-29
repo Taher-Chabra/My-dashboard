@@ -1,0 +1,131 @@
+.main {
+   width: 70%;
+   padding: 1rem 4rem;
+   background-color: rgba(119, 106, 106, 0.8);
+   border-bottom: 2px solid #e2e8f0;
+   border-radius: 2rem;
+   margin: 0 auto;
+   color: white;
+}
+
+.inner-main {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.main-title {
+   font-size: 2.5rem;
+   color: #fff;
+}
+
+.nav-items {
+   margin: 0 5rem;
+   flex-grow: 1;
+}
+
+@media (min-width: 880px) and (max-width: 1015px) {
+   .nav-items {
+      margin: 1rem;
+   }
+}
+
+.list-items {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.list-items li{
+   color: #fff;
+   cursor: pointer;
+   font-weight: 600;
+   transition: all 0.5s ease-in;
+}
+
+.drop-menu {
+   display: none;
+}
+
+.btn {
+   border: none;
+   background: transparent;
+   color: #fff;
+   font-size: 4rem;
+}
+
+@media screen and (max-width: 880px) {
+   .main {
+      padding: 0.5rem 1rem;
+   }
+   .nav-items {
+      flex-grow: 0;
+      position: relative;
+   }
+   .list-items {
+      flex-direction: column;
+      position: absolute;
+      background-color: rgba(119, 106, 106, 0.9);
+      z-index: 99;
+      align-items: flex-start;
+      border-radius: 0.5rem;
+      transform: translate(-30%, 7%);
+      overflow: hidden;
+      height: 0;
+      transition: height 0.2s ease-in;
+   }
+
+   .list-items .open {
+      border: 1px solid rgb(100, 88, 88);
+      height: 12rem;
+   }
+
+   .list-items li {
+      padding: 1rem;
+      padding-right: 2rem;
+   }
+
+   .list-items li:hover,
+   .list-items li:active {
+      background-color: rgb(119, 106, 106);
+   }
+
+   .drop-menu {
+      display: block;
+   }
+}
+
+@media screen and (max-width: 650px) {
+   .main-title {
+      font-size: 1.5rem;
+   }
+   .user {
+      display: none;
+   }
+   .nav-items {
+      flex-grow: 0;
+   }
+}
+
+@media screen and (max-width: 880px) {
+   .main {
+      width: fit-content;
+   }
+}
+
+.list-items li:hover,
+.list-items li:active {
+   transform: translate(3%, -3%);
+   font-weight: 700;
+
+}
+
+.user-detail {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+}
+
+.image {
+   border-radius: 9999px;
+}

@@ -1,0 +1,39 @@
+.chart-box {
+   background-color: #06b6d4; 
+   color: #fff;
+}
+
+.text-info {
+   display: flex; 
+   flex-direction: column; 
+   gap: 0.5rem;
+}
+
+.text-info-inner {
+   border-bottom: 2px solid #e2e8f0; 
+   padding-top: 1rem; 
+   padding-bottom: 1rem;
+}
+
+.text1 {
+   font-size: 1.875rem;
+   color: #374151;
+}
+
+.text2 {
+   font-size: 1.25rem;
+   color: #9ca3af;
+}
+
+.text3 {
+   font-size: 1.125rem;
+   color: #9ca3af;
+}
+
+.chart-box2 {
+   background-color: #1e293b;
+}
+
+.chart-box3 {
+   background-color: #f87171;
+}

@@ -1,0 +1,13 @@
+.children {
+   padding: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+   .children {
+      padding: 0.5rem;
+   }
+}
+
+.footer-section {
+   margin-top: auto;
+}

@@ -1,0 +1,80 @@
+.main {
+   width: 100%; 
+   display: flex; 
+   flex-direction: column; 
+   padding: 4rem 2.5rem;
+   gap: 6rem; 
+}
+
+.card-wrapper {
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   row-gap: 5rem;
+}
+
+@media screen and (min-width:530px) {
+   .card-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 7rem;
+   }
+}
+
+@media screen and (min-width:1026px) {
+   .card-wrapper {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+
+.country-data-wrapper {
+   padding: 0.75rem 2.5rem;
+   background-color: #ffffff;
+   position: relative;
+}
+
+.chart-box-wrapper, .photo-card-wrapper {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 3rem; 
+}
+
+@media (min-width: 670px) and (max-width: 1000px) {
+   .chart-box-wrapper, .photo-card-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 10rem;
+   }
+}
+
+@media screen and (max-width: 670px) {
+   .chart-box-wrapper, .photo-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10rem;
+   }
+}
+
+.chart-box-wrapper {
+   margin-top: 5rem;
+}
+
+.heading {
+   margin-bottom: 10rem; 
+   font-size: 3rem;
+   line-height: 1; 
+}
+
+.bgOrange {
+   background-color: #fb923c;
+}
+
+.bgGreen {
+   background-color: #064E3B;
+}
+
+.bgRed {
+   background-color: #B91C1C;
+}
+
+.bgBlue {
+   background-color: #2563EB;
+}
+
+
