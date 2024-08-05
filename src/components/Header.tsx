@@ -25,7 +25,7 @@ const Header = () => {
               {dropOpen ? <ImMenu4 /> : <ImMenu3 />}
             </button>
           </div>
-          <ul className={styles["list-items"]}>
+          <ul className={`${styles["list-items"]} ${styles[`${dropOpen? "open" : ""}`]}`}>
             <Link href={"/dashboard/analytics"}>
               <li>Analytic</li>
             </Link>
